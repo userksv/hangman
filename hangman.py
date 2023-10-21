@@ -1,10 +1,4 @@
-# Random word and show random 2 letters
-# Display hangman in ASCII
-# Player inputs one letter at the time if letter does not exist in word
-# than one head adds to the hangman body.
-# If letter exist than this letters shows in the word and
-# Player loses if he does not guess the word while hangman not shown completely
-from random import choice, randint
+from random import choice
 hangman = [
     '''
      _______
